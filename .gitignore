@@ -1,0 +1,7 @@
+.ai-memory/
+AGENTS.md
+docs/memory/
+*.secret
+.env
+.env.*
+!.env.example
