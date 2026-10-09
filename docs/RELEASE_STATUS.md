@@ -38,3 +38,11 @@ This documentation-only repo contains no original RC6 ZIP, unpublished research,
 Read [source verification](SOURCE_VALIDATION.md), [safe portability](PORTABILITY.md), and the [fictional context example](../examples/synthetic-context/README.md).
 
 Last reviewed 2026-10-09.
+## Isolated local test evidence (2026-10-09)
+
+- Python UTF-8 Skill validator: PASS for all 10/10 RC6 member source copies.
+- Thesis contract regression: 10 unit tests PASS.
+- VNext contract test script: PASS, including negative authority, evidence and read-only Scientific Debug conditions.
+- Reference Library test script: PASS, including version mismatch and stale-change cases.
+- Test target: isolated local RC6 source copies, not a new sanitized or published Skill ZIP.
+- These tests do not replace a recipient-account end-to-end canary or rights/privacy verification.

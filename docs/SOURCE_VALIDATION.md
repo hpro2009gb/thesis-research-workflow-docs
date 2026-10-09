@@ -34,3 +34,12 @@ RC6 là baseline có giá trị kỹ thuật, nhưng không phải bản phân p
 Phân loại source/fixture có tính riêng tư → xác định quyền phân phối → làm sạch từng Skill trên bản sao → đảm bảo đúng dependency closure → đóng gói với hash → kiểm thử cấu trúc và hành vi phủ Gate/authority → canary trên phiên ChatGPT mới với Context Pack tổng hợp → duyệt chính xác artifact phát hành.
 
 **Release posture:** `PUBLIC_DOCS_PREVIEW` cho tài liệu, `BLOCKED` cho việc tuyên bố bộ Skill Suite đã sẵn sàng phát hành.
+
+## Isolated local test evidence (2026-10-09)
+
+- Python UTF-8 Skill validator: PASS for all 10/10 RC6 member source copies.
+- Thesis contract regression: 10 unit tests PASS.
+- VNext contract test script: PASS, including negative authority, evidence and read-only Scientific Debug conditions.
+- Reference Library test script: PASS, including version mismatch and stale-change cases.
+- Test target: isolated local RC6 source copies, not a new sanitized or published Skill ZIP.
+- These tests do not replace a recipient-account end-to-end canary or rights/privacy verification.
