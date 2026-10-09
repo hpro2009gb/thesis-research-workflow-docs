@@ -43,3 +43,17 @@ Phân loại source/fixture có tính riêng tư → xác định quyền phân 
 - Reference Library test script: PASS, including version mismatch and stale-change cases.
 - Test target: isolated local RC6 source copies, not a new sanitized or published Skill ZIP.
 - These tests do not replace a recipient-account end-to-end canary or rights/privacy verification.
+
+## Sanitized Skill candidate verification — 9 October 2026
+
+The ten-Skill **public-portfolio candidate** was assembled **privately** from the immutable RC6 source. This is engineering evidence, **not** a public Skill release or evidence of fresh-account runtime success.
+
+- Ten individual Skill ZIPs passed structural packaging, archive integrity and source-to-ZIP byte comparison.
+- Exactly 205 candidate files are accounted for in those ZIPs. All 103 detected Skill entrypoint links to local references/scripts exist.
+- Generic source review replaced research-instance identifiers, a private notation profile and dissertation-specific example fixtures with fictional or context-profile-driven material.
+- The configured pattern scan reported no remaining matches for the specified identity, private-path or project-domain signatures. Pattern scans are not a guarantee of zero sensitive or copyrighted content.
+- Contract test suite: 10/10 PASS; VNext contract negatives and Reference Library tests also PASS.
+- Two shared-memory dependencies are external to these ten ZIPs: repo-local-memory-gate and repo-session-memory. Their recipient-account availability and licensing are not established.
+- Redistribution licence, ownership and third-party content rights remain unapproved. Independent fresh-account canary and full multi-Skill authority verification have not run.
+
+**Status remains PUBLIC_DOCS_PREVIEW for this repository and SKILL_SUITE_BLOCKED for distributing installable files.** No ZIP from the sanitized candidate or original RC6 is published here.
